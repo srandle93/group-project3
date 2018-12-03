@@ -3,22 +3,6 @@ import React from "react";
 function Login() {
     return (
       <div className="container">
-
-    <button data-target="modal1" className="btn modal-trigger">Modal</button>
-
-  <div id="modal1" className="modal">
-    <div className="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
-    </div>
-    <div className="modal-footer">
-      <a href="#!" className="modal-close waves-effect waves-green btn-flat">Agree</a>
-    </div>
-  </div>
-
-        {/* <button data-target="modal1" class="btn modal-trigger">Modal</button>
-        <div id="modal1" className="modal">
-          <div className="modal-content">
       <div className="row">
         <form className="col s12">
           <div className="row">
@@ -52,15 +36,6 @@ function Login() {
         </form>
       </div>
       </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-          </div>
-        </div> */}
-        </div>
-
-        (document).ready(() => {
-            $('.modal').modal();
-        });
       
     )
 }
