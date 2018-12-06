@@ -1,4 +1,6 @@
 import React from "react";
+import database from "./firebase";
+database = firebase.database();
 
 function Login() {
     return (
