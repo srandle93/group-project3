@@ -1,5 +1,6 @@
-import Jumbotron from "Jumbotron";
-import Google from "Google";
+import React from 'react';
+// import Jumbotron from "Jumbotron";
+// import Google from "Google";
 
 function Home() {
     return (
@@ -15,10 +16,10 @@ function Home() {
                 </div>
             </nav>
             <div class="card large">
-                <Jumbotron />
+                {/* <Jumbotron /> */}
             </div>
             <div class="card large">
-                <Google />
+                {/* <Google /> */}
             </div>
             {/* This is a carousel of event images. */}
             <div className="carousel">
