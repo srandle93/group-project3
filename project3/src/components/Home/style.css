@@ -1,0 +1,10 @@
+    /* Makes the map show up across width of page, but only heigh half way down the page */
+    #map {
+        height: 50%;
+    }
+
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
