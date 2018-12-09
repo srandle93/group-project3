@@ -19,9 +19,6 @@
     "watch": "-d --watch",
     "serve": "serve ./public"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": [
     ">0.2%",
     "not dead",
