@@ -113,11 +113,7 @@ export default App;
 //         hexagon = {lat: 44.955451, lng: -93.233428}
 //       ]
 
-//     return(
-//         <div>
-//             =========================
-//         </div>
-//     )
+
 // }
 
 // export default Google;
