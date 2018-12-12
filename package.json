@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "deploy" : "yarn build&&gh-pages -d build"
+    "deploy" : "npm run build&&gh-pages -d build"
   },
   "repository": {
     "type": "git",
