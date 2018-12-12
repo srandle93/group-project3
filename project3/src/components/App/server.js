@@ -1,6 +1,6 @@
 const express = require("express");
 const logger = require("morgan");
-const routes = require("./src/index");
+const routes = require("../../index");
 const app = express();
 const path = require('path')
 const PORT = process.env.PORT || 3001;
@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.get('*', (req, res)=>{
-  res.sendFile(path.join(__dirname, '../build/index.html'));
+  res.sendFile(path.join(__dirname, '../../build/index.html'));
 })
 
 app.use(routes);
