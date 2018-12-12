@@ -16,9 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build ",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "watch": "-d --watch",
-    "serve": "serve ./public"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,8 +33,7 @@
     "babel-loader": "^8.0.4",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "serve": "^10.1.1",
-    "webpack-cli": "^3.1.2"
+    "serve": "^10.1.1"
   },
   "keywords": [],
   "author": "",
