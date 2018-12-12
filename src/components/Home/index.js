@@ -1,5 +1,9 @@
 import React from 'react';
 import { withAuthorization } from '../Session';
+import Jumbotron from "./Jumbotron";
+import "./style.css";
+import Results from '../Results/Results';
+// import Google from "Google";
 
 // import Jumbotron from "Jumbotron";
 // import Google from "Google";
@@ -38,8 +42,11 @@ import { withAuthorization } from '../Session';
 
 const HomePage = () => (
   <div>
-    <h1>Home Page</h1>
-    <p>The Home Page is accessible by every signed in user.</p>
+    <Jumbotron />
+    {/* <Google /> */}
+    <br></br>
+    <div className="googlePlacement"></div>
+    <Results />
     <div id="app"></div>
   </div>
 );

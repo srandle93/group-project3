@@ -7,14 +7,33 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(sienna, light-brown sienna);
 }
 .jumbotron {
-    height: 40%;
+    text-align: center;
+    height: 50%;
     border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px #e0e0e0 grey lighten-2;
+    padding: 30px;
+    box-shadow: 10px 10px grey;
     background-image: url(
         https://d2x3rgjr0n9rv4.cloudfront.net/2017/07/29121030/best_ovp_broadcast_live_music_show_feat-354x214.jpg
-    )
-
+    );
+}
+h1, h2 {
+    color: sienna;
+    margin-top: 0%;
+    text-shadow: 2px 2px black;
+}
+.googlePlacement {
+    text-align: center;
+    height: 60%;
+    width: 50%;
+    border: 1px solid;
+    padding: 150px;
+    box-shadow: 10px 10px grey;
+    background-image: url(
+        https://previews.123rf.com/images/zhudifeng/zhudifeng1205/zhudifeng120503476/13591591-an-old-brass-compass-on-a-treasure-map-background.jpg    );
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 20px;
 }

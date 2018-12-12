@@ -1,10 +1,13 @@
 import React from "react";
+import "./style.css";
 
 function Jumbotron() {
     return(
         <div className="jumbotron">
             <h1>AUD-LIB TONIGHT</h1>
-            <h3>You should be here</h3>
+            {/* <h2>You should be here</h2> */}
         </div>
     )
 }
+
+export default Jumbotron;
