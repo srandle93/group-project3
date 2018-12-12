@@ -1,24 +1,24 @@
-var webpack = require('webpack');
-var path = require('path');
+// // var webpack = require('webpack');
+// var path = require('path');
 
-var BUILD_DIR = path.resolve(__dirname, 'src/components/public');
-var APP_DIR = path.resolve(__dirname, 'src/components/app');
+// var BUILD_DIR = path.resolve(__dirname, 'src/components/public');
+// var APP_DIR = path.resolve(__dirname, 'src/components/app');
 
-var config = {
-  entry: APP_DIR + '/index.jsx',
-  output: {
-    path: BUILD_DIR,
-    filename: 'bundle.js'
-  },
-  module : {
-    loaders : [
-      {
-        test : /\.jsx?/,
-        include : APP_DIR,
-        loader : 'babel'
-      }
-    ]
-  }
-};
+// var config = {
+//   entry: APP_DIR + '/index.jsx',
+//   output: {
+//     path: BUILD_DIR,
+//     filename: 'bundle.js'
+//   },
+//   module : {
+//     loaders : [
+//       {
+//         test : /\.jsx?/,
+//         include : APP_DIR,
+//         loader : 'babel'
+//       }
+//     ]
+//   }
+// };
 
-module.exports = config;
+// module.exports = config;
