@@ -1,10 +1,20 @@
-    /* Makes the map show up across width of page, but only heigh half way down the page */
-    #map {
-        height: 50%;
-    }
+/* Makes the map show up across width of page, but only heigh half way down the page */
+#map {
+    height: 50%;
+}
 
-    html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.jumbotron {
+    height: 40%;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #e0e0e0 grey lighten-2;
+    background-image: url(
+        https://d2x3rgjr0n9rv4.cloudfront.net/2017/07/29121030/best_ovp_broadcast_live_music_show_feat-354x214.jpg
+    )
+
+}
