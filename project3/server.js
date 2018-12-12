@@ -1,8 +1,9 @@
 const express = require("express");
 const logger = require("morgan");
-const routes = require("../../index");
+const dotenv = require("dotenv").config();
+const mongoose = require("mongoose");
+const routes = require("./routes");
 const app = express();
-const path = require('path')
 const PORT = process.env.PORT || 3001;
 
 app.use(logger("dev"));
@@ -10,14 +11,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("build"));
+  app.use(express.static("client/build"));
 }
-
-app.get('*', (req, res)=>{
-  res.sendFile(path.join(__dirname, '../../build/index.html'));
-})
-
 app.use(routes);
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googleBookList");
 
 app.listen(PORT, () => {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
