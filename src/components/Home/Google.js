@@ -1,30 +1,26 @@
-
+import "./style.css";
 // Most recent attempt at code
-import React, {Component } from 'react';
+import React from 'react';
 
-import { withGoogleMap ,
-    GoogleMap,
-    } from "react-google-maps";
+// import { withGoogleMap ,
+//     GoogleMap,
+//     } from "react-google-maps";
+import Map from "./map/Map";
 
-
-const GettingStartedGoogleMap = withGoogleMap(props => (
-    <GoogleMap
-        defaultZoom={3}
-        defaultCenter={{ lat: -25.363882, lng: 131.044922 }}
-    >
-    </GoogleMap>
-));
-
-class App extends Component {
+class Google extends React.Component {
 
     render() {
 
     return (
 
-        <div style={{height: `100%`}}>
-            <GettingStartedGoogleMap
+        <div style={{height: `100px`}}>
+            <Map
+                googleMapURL={`https://maps.googleapis.com/maps/api/js?key=
+                APIKEY=AIzaSyBxm4_uzFSE-MSwjAFJM-Hiz9doJYBlmVE=3.exp&libraries=geometry,drawing,places`}
+                loadingElement={<div style={{height: '100%'}}/>}
                 containerElement={
                   <div style={{    position: 'absolute',
+                  height: '600px',
                       top: 0,
                       left: 0,
                       right: 0,
@@ -46,7 +42,7 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Google;
 
 
 // DIFFERENT CODE ATTEMPT BELOW
