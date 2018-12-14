@@ -1,6 +1,6 @@
 
 // Most recent attempt at code
-import React, {Component } from 'react';
+import React, { Component } from 'react';
 
 import { withGoogleMap ,
     GoogleMap,
@@ -9,13 +9,13 @@ import { withGoogleMap ,
 
 const GettingStartedGoogleMap = withGoogleMap(props => (
     <GoogleMap
-        defaultZoom={3}
-        defaultCenter={{ lat: -25.363882, lng: 131.044922 }}
+        defaultZoom={13}
+        defaultCenter={{ lat: 44.969399, lng: -93.257955 }}
     >
     </GoogleMap>
 ));
 
-class App extends Component {
+class GoogleMaps extends Component {
 
     render() {
 
@@ -46,7 +46,7 @@ class App extends Component {
   }
 }
 
-export default App;
+export default GoogleMaps;
 
 
 // DIFFERENT CODE ATTEMPT BELOW
