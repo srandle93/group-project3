@@ -5,9 +5,6 @@ import "./style.css";
 import Results from '../Results/Results';
 import GoogleMaps from "./Google";
 
-// import Jumbotron from "Jumbotron";
-// import Google from "Google";
-
 // function Home() {
 //     return (
 //         <div className="container">
@@ -43,13 +40,10 @@ import GoogleMaps from "./Google";
 const HomePage = () => (
   <div>
     <Jumbotron />
-    {/* <Google /> */}
     <br></br>
     <div className="googlePlacement"></div>
     <Results />
-    <div>
     <GoogleMaps />
-    </div>
   </div>
 );
 

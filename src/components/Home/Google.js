@@ -23,23 +23,8 @@ class GoogleMaps extends Component {
 
         <div style={{height: `100%`}}>
             <GettingStartedGoogleMap
-                containerElement={
-                  <div style={{    position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      right: 0,
-                      bottom: 0,
-                      justifyContent: 'flex-end',
-                      alignItems: 'center',}} />
-              }
-              mapElement={
-                  <div style={{    position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      right: 0,
-                      bottom: 0,
-                 }} />
-              }
+                containerElement={ <div style={{ height: "100%", width: 1250, paddingBottom: 100, marginLeft: 10, paddingTop: 10 }} /> }
+                mapElement={ <div style={{ height: 500 }} /> }
             />
       </div>
     );
