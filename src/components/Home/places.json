@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "The Cabooze",
+      "latitude": "44.963540",
+      "longitude": "-93.246800"
+    },
+    {
+      "id": 2,
+      "name": "Honey",
+      "latitude": "44.987549",
+      "longitude": "-93.257729"
+    },
+    {
+      "id": 3,
+      "name": "Dakota Jazz Club",
+      "latitude": "44.973730",
+      "longitude": "-93.275240"
+    },
+    {
+      "id": 4,
+      "name": "Icehouse",
+      "latitude": "44.956190",
+      "longitude": "-93.278400"
+    },
+    {
+      "id": 5,
+      "name": "Kitty Cat Klub",
+      "latitude": "44.980068",
+      "longitude": "-93.236481"
+    },
+    {
+      "id": 6,
+      "name": "Nomad World Pub",
+      "latitude": "44.968790",
+      "longitude": "-93.246910"
+    },
+    {
+      "id": 7,
+      "name": "Palmer's Bar",
+      "latitude": "44.968810",
+      "longitude": "-93.247540"
+    },
+    {
+      "id": 8,
+      "name": "Hexagon Bar",
+      "latitude": "44.955390",
+      "longitude": "-93.233540"
+    }
+]
