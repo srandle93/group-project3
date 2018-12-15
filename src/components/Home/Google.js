@@ -15,7 +15,7 @@ const GettingStartedGoogleMap = withGoogleMap(props => (
     >
 
     <Marker name="cabooze"
-        position= {{ lat: 44.963540, lng: -93.246800 }}  
+        position= {{ lat: 44.963540, lng: -93.246800 }}
     />
 
     <Marker name="honey"
