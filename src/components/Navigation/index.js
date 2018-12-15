@@ -5,6 +5,7 @@ import SignOutButton from '../SignOut';
 import * as ROUTES from '../../constants/routes';
 
 import { AuthUserContext } from '../Session';
+import "./style.css";
 
 const Navigation = () => (
   <div>
