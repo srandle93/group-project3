@@ -2,17 +2,24 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import { compose } from 'recompose';
 
+import  Jumbotron from '../Home/Jumbotron';
 import { SignUpLink } from '../SignUp';
 import { PasswordForgetLink } from '../PasswordForget';
 import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
+import './style.css';
 
 const SignInPage = () => (
-  <div>
-    <h1>SignIn</h1>
-    <SignInForm />
-    <PasswordForgetLink />
-    <SignUpLink />
+  <div >
+    <div>
+      <Jumbotron />
+    </div>
+    <div id="signInBox">
+      <h1 id="signInHeader">Sign In</h1>
+      <SignInForm />
+      <PasswordForgetLink />
+      <SignUpLink />
+    </div>
   </div>
 );
 
@@ -57,6 +64,7 @@ class SignInFormBase extends Component {
     return (
       <form onSubmit={this.onSubmit}>
         <input
+          id="emailInput"
           name="email"
           value={email}
           onChange={this.onChange}
@@ -64,13 +72,14 @@ class SignInFormBase extends Component {
           placeholder="Email Address"
         />
         <input
+          id="passwordInput"
           name="password"
           value={password}
           onChange={this.onChange}
           type="password"
           placeholder="Password"
         />
-        <button disabled={isInvalid} type="submit">
+        <button disabled={isInvalid} type="submit" id="signInButton">
           Sign In
         </button>
 
