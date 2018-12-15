@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import "./style.css";
+
 
 import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
 
 const PasswordForgetPage = () => (
   <div>
-    <h1>PasswordForget</h1>
+    <h1 id="pwForget">PasswordForget</h1>
     <PasswordForgetForm />
   </div>
 );
@@ -68,7 +70,7 @@ class PasswordForgetFormBase extends Component {
 
 const PasswordForgetLink = () => (
   <p>
-    <Link to={ROUTES.PASSWORD_FORGET}>Forgot Password?</Link>
+    <Link id="pwLink" to={ROUTES.PASSWORD_FORGET}>Forgot Password?</Link>
   </p>
 );
 
