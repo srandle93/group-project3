@@ -3,7 +3,7 @@ import { withAuthorization } from '../Session';
 import Jumbotron from "./Jumbotron";
 import "./style.css";
 import Results from '../Results/Results';
-import GoogleMaps from "./Google";
+import GoogleMaps from './Google';
 
 // function Home() {
 //     return (

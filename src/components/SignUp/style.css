@@ -1,0 +1,122 @@
+#accountSignUp {
+    /* bottom: 30px; */
+    margin-top: 33px;
+    margin-left: 15px;
+    color: #262626;
+    font-size: 1.25em;
+    /* margin-bottom: 10px; */
+    /* position: absolute; */
+}
+
+#signUpLink {
+    /* bottom: 35px; */
+    color: #262626;
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    /* position: absolute; */
+}
+
+#signUpHeader {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color: #262626;
+}
+
+#signUpBox {
+    height: 375px;
+    width: 300px;
+    border: 2px solid;
+    border-color: 255, 255, 255, 0.2;
+    border-radius: 25px;
+    margin-right: 40px;
+    margin-top: 150px;
+    float: right;
+    background-color: #ffffff;
+    opacity: 0.80;
+    font-family: 'Prompt', sans-serif;
+    color: black;
+}
+
+#signUpButton {
+  background-color: #262626;  
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  margin-top: 7px;
+  margin-left: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5em;
+}
+
+#signUpFullName {
+  width: 90%;
+  /* padding: 12px 20px; */
+  /* margin: 8px 0; */
+  /* display: inline-block; */
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border-radius: 25px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5em;
+}
+
+#signUpEmail {
+    width: 90%;
+    /* padding: 12px 20px; */
+    /* margin: 8px 0;
+    display: inline-block; */
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 25px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5em;
+}
+
+#newPassword {
+    width: 90%;
+    /* padding: 12px 20px; */
+    /* margin: 8px 0;
+    display: inline-block; */
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 25px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5em;
+}
+
+#confirmNewPassword {
+    width: 90%;
+    /* padding: 12px 20px; */
+    /* margin: 8px 0;
+    display: inline-block; */
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 25px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5em;
+}
+
+/* .smallerPhoto {
+    background-color: green;
+} */
