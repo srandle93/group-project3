@@ -19,9 +19,9 @@ const Navigation = () => (
 
 const NavigationAuth = () => (
   <ul>
-    <li>
+    {/* <li>
       <Link to={ROUTES.LANDING}>Landing</Link>
-    </li>
+    </li> */}
     <li>
       <Link to={ROUTES.HOME}>Home</Link>
     </li>

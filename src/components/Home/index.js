@@ -3,10 +3,7 @@ import { withAuthorization } from '../Session';
 import Jumbotron from "./Jumbotron";
 import "./style.css";
 import Results from '../Results/Results';
-// import Google from "Google";
-
-// import Jumbotron from "Jumbotron";
-// import Google from "Google";
+import GoogleMaps from "./Google";
 
 // function Home() {
 //     return (
@@ -43,11 +40,10 @@ import Results from '../Results/Results';
 const HomePage = () => (
   <div>
     <Jumbotron />
-    {/* <Google /> */}
     <br></br>
     <div className="googlePlacement"></div>
     <Results />
-    <div id="app"></div>
+    <GoogleMaps />
   </div>
 );
 
