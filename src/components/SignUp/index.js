@@ -5,10 +5,13 @@ import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
 import "./style.css";
 import  Jumbotron from '../Home/Jumbotron';
+import Navigation from '../Navigation';
+
 
 
 const SignUpPage = () => (
-  <div>
+  <div className="signUpBackground">
+    <Navigation />
     <Jumbotron />
     <div id="signUpBox">
     <h1 id="signUpHeader">SignUp</h1>

@@ -4,6 +4,8 @@ import Jumbotron from "./Jumbotron";
 import "./style.css";
 import Results from '../Results/Results';
 import GoogleMaps from './Google';
+import Navigation from '../Navigation';
+
 
 // function Home() {
 //     return (
@@ -39,11 +41,13 @@ import GoogleMaps from './Google';
 
 const HomePage = () => (
   <div>
-    <Jumbotron />
-    <br></br>
-    <div className="googlePlacement"></div>
-    <Results />
+    <div className="homeBackground">
+      <Navigation />
+      <Jumbotron />
+    </div>
+    {/* <div className="googlePlacement"></div> */}
     <GoogleMaps />
+    <Results />
   </div>
 );
 

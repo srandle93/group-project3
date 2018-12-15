@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import { compose } from 'recompose';
+import Navigation from '../Navigation';
 
 import  Jumbotron from '../Home/Jumbotron';
 import { SignUpLink } from '../SignUp';
@@ -10,7 +11,8 @@ import * as ROUTES from '../../constants/routes';
 import './style.css';
 
 const SignInPage = () => (
-  <div >
+  <div className="signInBackground">
+    <Navigation />
     <div>
       <Jumbotron />
     </div>

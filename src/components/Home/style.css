@@ -1,7 +1,18 @@
+.homeBackground {
+    height: 347.33px;
+    text-align: center;
+    /* padding-top: 40px; */
+    position: relative;
+    background-size: 100%;
+    background-image: url(../SignIn/assets/images/black-and-white-club-crowd-788824.jpg);
+    margin-bottom: 0;
+}
+
 /* Makes the map show up across width of page, but only heigh half way down the page */
 #map {
     height: 50%;
 }
+
 
 /* html, body {
     height: 100%;
@@ -12,12 +23,13 @@
 .jumbotron {
     text-align: center;
     height: 50%;
+    /* background-color: black; */
     font-family: 'Monoton', cursive;
     /* font-family: 'Bungee Inline', cursive; */
     /* font-family: 'Bungee Shade', cursive; */
     /* font-family: 'Codystar', cursive; */
     font-size: 50px; 
-    text-shadow: 4px 4px black;
+    text-shadow: 3px 3px black;
     /* padding: 30px; */
     margin-top: 25px;
     /* box-shadow: 10px 10px grey; */
@@ -41,7 +53,8 @@
         https://previews.123rf.com/images/zhudifeng/zhudifeng1205/zhudifeng120503476/13591591-an-old-brass-compass-on-a-treasure-map-background.jpg    );
     background-repeat: no-repeat;
     float: left;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    margin: 0;
 }
 
 .jumbotron {
