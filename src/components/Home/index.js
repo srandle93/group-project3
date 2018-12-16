@@ -41,9 +41,8 @@ const HomePage = () => (
   <div>
     <Jumbotron />
     <br></br>
-    <div className="googlePlacement"></div>
+    <GoogleMaps />    
     <Results />
-    <GoogleMaps />
   </div>
 );
 
