@@ -3,29 +3,33 @@ import "./style.css";
 import FavBtn from "./FavBtn";
 // import "Event.json" from "../";
 
-const Results = (props) => {
-    results.map((artist) => {
-      <div>
+const Results = () => { 
+    return (
+          <ul>
         <li><a href="link" className="collection-item">
-          {artist}
-        </a></li>,
-        <FavBtn/>
-      </div>
-    });
-    Favorite = (props) => {
-      const isFave = props.isFave;
-      if(isFave) {
+          artist
+        </a>
+        <FavBtn/></li><br />
         <li><a href="link" className="collection-item">
-            {artist}<i class="medium material-icons">favorite</i>
-        </a></li>
-      };
-    };
+          artist
+        </a><FavBtn/>
+        </li><br />
+        <li><a href="link" className="collection-item">
+          artist
+        </a><FavBtn/>
+        </li><br />
+        </ul>
+      
+    );
+   
     // loadToFavePage = () => {
 
     // };
-    render() {
-        <Results isFave={false} />
-    };
+    // render() {
+    //   retrun (
+    //     <Results/ >
+    //   );
+    // }
 };
         {/* // <div className="collection">
         //     <a href="link" className="collection-item">Event 1</a><button className="favorite">Favorite</button>
