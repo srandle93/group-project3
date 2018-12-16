@@ -1,0 +1,43 @@
+#newPasswordEntry {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    /* margin-bottom: 7px; */
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.5em;
+  }
+
+  #confirmPasswordEntry {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    /* margin-bottom: 7px; */
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.5em;
+  }
+
+  .resetPasswordButton {
+    background-color: #c53e29;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.5em;
+    padding: 10px 25px;
+    /* margin-top: 7px; */
+    margin-top: 10px;
+    margin-left: 31px;
+    display: inline-block;
+  }

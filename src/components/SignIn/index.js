@@ -13,14 +13,16 @@ import './style.css';
 const SignInPage = () => (
   <div className="signInBackground">
     <Navigation />
-    <div>
+    <div >
       <Jumbotron />
     </div>
-    <div id="signInBox">
-      <h1 id="signInHeader">Sign In</h1>
-      <SignInForm />
-      <PasswordForgetLink />
-      <SignUpLink />
+    <div id="signInBox" className="card">
+      <div className="card-body">
+        <h1 id="signInHeader" className="card-title">Sign In</h1>
+        <SignInForm />
+        <PasswordForgetLink />
+        <SignUpLink />
+      </div>
     </div>
   </div>
 );

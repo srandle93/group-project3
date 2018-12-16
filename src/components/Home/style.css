@@ -1,5 +1,6 @@
 .homeBackground {
-    height: 347.33px;
+    /* height: 347.33px; */
+    height: 350px;
     text-align: center;
     /* padding-top: 40px; */
     position: relative;
@@ -20,7 +21,7 @@
     padding: 0;
     background-image: linear-gradient(sienna, light-brown sienna);
 } */
-.jumbotron {
+.bannerLogo {
     text-align: center;
     height: 50%;
     /* background-color: black; */
@@ -28,7 +29,7 @@
     /* font-family: 'Bungee Inline', cursive; */
     /* font-family: 'Bungee Shade', cursive; */
     /* font-family: 'Codystar', cursive; */
-    font-size: 50px; 
+    font-size: 70px; 
     text-shadow: 3px 3px black;
     /* padding: 30px; */
     margin-top: 25px;
@@ -42,7 +43,7 @@
     margin-top: 0%;
     text-shadow: 2px 2px black;
 } */
-.googlePlacement {
+/* .googlePlacement {
     text-align: center;
     height: 60%;
     width: 50%;
@@ -53,53 +54,53 @@
         https://previews.123rf.com/images/zhudifeng/zhudifeng1205/zhudifeng120503476/13591591-an-old-brass-compass-on-a-treasure-map-background.jpg    );
     background-repeat: no-repeat;
     float: left;
-    /* margin-right: 20px; */
+    margin-right: 20px;
     margin: 0;
-}
+} */
 
-.jumbotron {
+/* .jumbotron {
     font-size: 70px;
-}
+} */
 
-.jumbotron span:nth-child(1) {
+.bannerLogo span:nth-child(1) {
     color: #e3dbb7;
 }
-.jumbotron span:nth-child(2) {
+.bannerLogo span:nth-child(2) {
     color: #e6c236;
 }
-.jumbotron span:nth-child(3) {
+.bannerLogo span:nth-child(3) {
     color: #d78427;
 }
-.jumbotron span:nth-child(4) {
+.bannerLogo span:nth-child(4) {
     color: #69c3b1;
 }
-.jumbotron span:nth-child(5) {
+.bannerLogo span:nth-child(5) {
     color: #c53e29;
 }
-.jumbotron span:nth-child(6) {
+.bannerLogo span:nth-child(6) {
     color: #7b421c;
 }
-.jumbotron span:nth-child(7) {
+.bannerLogo span:nth-child(7) {
     color: #a4c327;
 }
-.jumbotron span:nth-child(9) {
+.bannerLogo span:nth-child(9) {
     color: #6b7b2a;
 }
-.jumbotron span:nth-child(10) {
+.bannerLogo span:nth-child(10) {
     color: #69c3b1;
 }
-.jumbotron span:nth-child(11) {
+.bannerLogo span:nth-child(11) {
     color: #388172;
 }
-.jumbotron span:nth-child(12) {
+.bannerLogo span:nth-child(12) {
     color: #e3dbb7;
 }
-.jumbotron span:nth-child(13) {
+.bannerLogo span:nth-child(13) {
     color: #e6c236;
 }
-.jumbotron span:nth-child(14) {
+.bannerLogo span:nth-child(14) {
     color: #d78427;
 }
-.jumbotron span:nth-child(15) {
+.bannerLogo span:nth-child(15) {
     color: #c53e29;
 }

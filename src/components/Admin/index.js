@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./style.css";
 
 import { withFirebase } from '../Firebase';
 
@@ -36,12 +37,13 @@ class AdminPage extends Component {
   render() {
     const { users, loading } = this.state;
     return (
-      <div>
-        <h1>Admin</h1>
+      <div >
+        <h1 id="adminHeader">Admin</h1>
 
         {loading && <div>Loading ...</div>}
-
+       <div id="adminBox">
         <UserList users={users} />
+        </div>
       </div>
     );
   }
@@ -50,15 +52,15 @@ class AdminPage extends Component {
 const UserList = ({ users }) => (
     <ul>
       {users.map(user => (
-        <li key={user.uid}>
-          <span>
-            <strong>ID:</strong> {user.uid}
+        <li key={user.uid} id="userInfo">
+          <span id="displayID">
+            <strong>ID: </strong> {user.uid}
           </span>
-          <span>
-            <strong>E-Mail:</strong> {user.email}
+          <span id="displayEmail">
+            <strong>E-Mail: </strong> {user.email}
           </span>
-          <span>
-            <strong>Username:</strong> {user.username}
+          <span id="displayUsername">
+            <strong>Username: </strong> {user.username}
           </span>
         </li>
       ))}

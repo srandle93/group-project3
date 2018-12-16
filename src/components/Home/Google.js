@@ -59,7 +59,7 @@ class GoogleMaps extends Component {
 
         <div style={{height: `100%`}}>
             <GettingStartedGoogleMap
-                containerElement={ <div style={{ height: "100%", width: "100%", paddingBottom: 100, marginLeft: 0, paddingTop: 0, marginRight: 0, marginTop: 0 }} /> }
+                containerElement={ <div style={{ height: "100%", width: "100%", marginLeft: 0, paddingTop: 0, marginRight: 0, marginTop: 0 }} /> }
                 mapElement={ <div style={{ height: 500 }} /> }
             />
         </div>

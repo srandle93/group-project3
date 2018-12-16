@@ -4,7 +4,7 @@ import "./style.css";
 function Jumbotron() {
     return(
         <div >
-            <h2 className="jumbotron">
+            <h2 className="bannerLogo">
                 <span>A</span>
                 <span>U</span>
                 <span>D</span>

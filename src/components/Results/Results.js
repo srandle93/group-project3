@@ -3,14 +3,28 @@ import "./style.css";
 
 function Results() {
     return(
-        <div className="collection">
-            <a href="#!" className="collection-item">Event 1</a>
-            <a href="#!" className="collection-item">Event 2</a>
-            <a href="#!" className="collection-item">Event 3</a>
-            <a href="#!" className="collection-item">Event 4</a>
-            <a href="#!" className="collection-item">Event 5</a>
-            <a href="#!" className="collection-item">Event 6</a>
-            <a href="#!" className="collection-item">Event 7</a>
+        <div className="eventList">
+            <div className="eventResult">
+                <a href="#!" className="eventLink">Event 1</a>
+            </div> 
+            <div className="eventResult">
+                <a href="#!" className="eventLink">Event 2</a>
+            </div>
+            <div className="eventResult">
+                <a href="#!" className="eventLink">Event 3</a>
+            </div>
+            <div className="eventResult">
+                <a href="#!" className="eventLink">Event 4</a>
+            </div>
+            <div className="eventResult">
+                <a href="#!" className="eventLink">Event 5</a>
+            </div>
+            <div className="eventResult">
+                <a href="#!" className="eventLink">Event 6</a>
+            </div>
+            <div className="eventResult">
+                <a href="#!" className="eventLink">Event 7</a>
+            </div>
         </div>
     )
 }
