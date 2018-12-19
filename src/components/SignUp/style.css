@@ -1,38 +1,54 @@
+.signUpBackground {
+  background-image: url(../SignIn/assets/images/black-and-white-club-crowd-788824.jpg);
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 #accountSignUp {
-    /* bottom: 30px; */
     margin-top: 33px;
-    margin-left: 15px;
+    margin-left: 31px;
+    /* margin-bottom: 0px; */
     color: #262626;
     font-size: 1.25em;
-    /* margin-bottom: 10px; */
-    /* position: absolute; */
+    margin-bottom: 25px;
+    position: absolute;
+    bottom: 30px;
 }
 
 #signUpLink {
-    /* bottom: 35px; */
     color: #262626;
-    font-size: 1.25em;
-    margin-bottom: 10px;
-    /* margin-bottom: 10px; */
+    /* margin-bottom: 10px;
+    margin-bottom: 10px;  */
     /* position: absolute; */
 }
 
 #signUpHeader {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 15px;
+    margin-left: 31px;
     color: #262626;
 }
 
 #signUpBox {
     height: 375px;
-    width: 300px;
+    width: 600px;
     border: 2px solid;
     border-color: 255, 255, 255, 0.2;
     border-radius: 25px;
-    margin-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 150px;
-    float: right;
+    /* float: right; */
     background-color: #ffffff;
     opacity: 0.80;
     font-family: 'Prompt', sans-serif;
@@ -45,7 +61,7 @@
   color: white;
   padding: 10px 25px;
   margin-top: 7px;
-  margin-left: 15px;
+  margin-left: 31px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -117,6 +133,8 @@
   font-size: 1.5em;
 }
 
-/* .smallerPhoto {
+/* .smallBackground {
     background-color: green;
 } */
+
+

@@ -8,7 +8,7 @@ import { AuthUserContext } from '../Session';
 import "./style.css";
 
 const Navigation = () => (
-  <div>
+  <div className="navBarBackground">
     <AuthUserContext.Consumer>
       {authUser =>
         authUser ? <NavigationAuth /> : <NavigationNonAuth />

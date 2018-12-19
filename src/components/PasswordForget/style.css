@@ -1,21 +1,59 @@
-#pwForget {
+/* #pwForget {
     bottom: 0;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 15px;
+    color: #262626;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.25em;
+    position: absolute;
+} */
+
+#pwForget {
+    margin-left: 31px;
+    font-size: 40px;
+}
+
+#pwLink {
+    bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 31px;
     color: #262626;
     font-family: 'Prompt', sans-serif;
     font-size: 1.25em;
     position: absolute;
 }
 
-#pwLink {
-    bottom: 0;
+#forgetForm {
+  width: 80%;
+  height: 300px;
+  /* padding: 12px 20px; */
+  /* margin: 8px 0; */
+  /* display: inline-block; */
+  display: block;
+  margin: 0 auto;
+  /* margin-bottom: 7px; */
+  margin-top: 225px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border-radius: 25px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5em;
+}
+
+#forgetPWemail {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 31px;
+    /* margin-bottom: 7px; */
     margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 15px;
-    color: #262626;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
     font-family: 'Prompt', sans-serif;
-    font-size: 1.25em;
-    position: absolute;
+    font-size: 1.5em;
 }

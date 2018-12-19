@@ -1,78 +1,93 @@
 body {
     /* background-color: green; */
     /* background-image: url(assets/images/audience-band-bright-1047442.jpg); */
-    background-image: url(assets/images/black-and-white-club-crowd-788824.jpg);
-    background-size: 100%;
+    /* background-image: url(assets/images/black-and-white-club-crowd-788824.jpg);
+    background-size: 100%; */
+}
+
+.signInBackground {  
+  background-image: url(../SignIn/assets/images/black-and-white-club-crowd-788824.jpg);
+  /* Set rules to fill background */
+  min-height: 100%;
+  /* min-width: 1024px; */
+  min-width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 #signInHeader {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 15px;
+    margin-left: 31px;
     color: #262626;
 }
 
 #signInBox {
     height: 375px;
-    width: 300px;
+    width: 600px;
     border: 2px solid rgba(217, 217, 217, 0.65);
-    /* border-color: 217, 217, 217, 0.65; */
     border-radius: 25px;
-    margin-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 150px;
-    float: right;
     background-color: #ffffff;
     opacity: 0.80;
-    /* font-family: 'Monoton', cursive; */
-    /* font-family: 'Megrim', cursive; */
     font-family: 'Prompt', sans-serif;
     color: #262626;
     position: relative;
+    
 }
 
 #signInButton {
-  background-color: #262626;
+  background-color: #c53e29;
   border: none;
   color: white;
-  padding: 10px 25px;
-  margin-top: 7px;
-  margin-left: 15px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   border-radius: 25px;
   font-family: 'Prompt', sans-serif;
   font-size: 1.5em;
-
+  padding: 10px 25px;
+  margin-top: 7px;
+  margin-left: 31px;
+  display: inline-block;
 }
 
 #emailInput {
   width: 90%;
-  /* padding: 12px 20px; */
-  /* margin: 8px 0; */
-  /* display: inline-block; */
   display: block;
   margin: 0 auto;
   margin-bottom: 7px;
-  border: 1px solid #ccc;
   box-sizing: border-box;
   padding-left: 10px;
+  border: 1px solid #ccc;
   border-radius: 25px;
   font-family: 'Prompt', sans-serif;
   font-size: 1.5em;
+}
 
+#emailInput::-webkit-input-placeholder  {
+    padding-left: 15px;
+}
+
+#passwordInput::-webkit-input-placeholder  {
+    padding-left: 15px;
 }
 
 #passwordInput {
     width: 90%;
-    /* padding: 12px 20px; */
-    /* margin: 8px 0;
-    display: inline-block; */
     display: block;
     margin: 0 auto;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
     padding-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
     border-radius: 25px;
     font-family: 'Prompt', sans-serif;
     font-size: 1.5em;
@@ -81,4 +96,16 @@ body {
 /* #passwordForget {
     margin-left: 15px;
     color: pink;
+} */
+/* @media all and (max-width: 990px) { 
+    
+}
+
+@media all and (max-width: 640px) { 
+    .signInBackground {
+        width: auto ;
+        height: auto ;
+        background-size: contain;
+    }
+
 } */
