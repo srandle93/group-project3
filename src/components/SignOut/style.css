@@ -18,3 +18,7 @@
   opacity: .80;
   padding: 10px 25px;
 }
+
+#signOutButton:hover {
+   background-color: #c53e29;
+}

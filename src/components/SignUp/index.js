@@ -10,12 +10,16 @@ import Navigation from '../Navigation';
 
 
 const SignUpPage = () => (
-  <div className="signUpBackground">
-    <Navigation />
-    <Jumbotron />
-    <div id="signUpBox">
-    <h1 id="signUpHeader">SignUp</h1>
-    <SignUpForm />
+  <div>
+    <img className="signInBackground"  src="../assets/images/black-and-white-club-crowd-788824.jpg" alt="blackAndWhitePhoto"></img>
+
+    <div >
+      <Navigation />
+      <Jumbotron />
+      <div id="signUpBox">
+      <h1 id="signUpHeader">Sign Up</h1>
+      <SignUpForm />
+      </div>
     </div>
   </div>
 );

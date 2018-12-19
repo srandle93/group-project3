@@ -18,11 +18,15 @@
     bottom: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 31px;
+    margin-left: 5%;
     color: #262626;
     font-family: 'Prompt', sans-serif;
     font-size: 1.25em;
     position: absolute;
+}
+
+#pwLink:hover {
+    color: #c53e29;
 }
 
 #forgetForm {
@@ -41,6 +45,7 @@
   border-radius: 25px;
   font-family: 'Prompt', sans-serif;
   font-size: 1.5em;
+  opacity: 1;
 }
 
 #forgetPWemail {

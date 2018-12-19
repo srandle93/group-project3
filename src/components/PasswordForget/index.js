@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import "./style.css";
+import Navigation from '../Navigation';
+
 
 
 import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
 
 const PasswordForgetPage = () => (
-  <div className="signInBackground">
+  <div>
+    <img className="signInBackground"  src="../assets/images/black-and-white-club-crowd-788824.jpg" alt="blackAndWhitePhoto"></img>
+    <Navigation />
     <div id="forgetForm">
       <h1 id="pwForget">Password Forget</h1>
       <PasswordForgetForm />

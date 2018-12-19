@@ -1,8 +1,10 @@
 .signUpBackground {
-  background-image: url(../SignIn/assets/images/black-and-white-club-crowd-788824.jpg);
+  /* background-image: url(../SignIn/assets/images/black-and-white-club-crowd-788824.jpg); */
   /* Set rules to fill background */
+  opacity: .4;
   min-height: 100%;
-  min-width: 1024px;
+  /* min-width: 1024px; */
+  min-width: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
   /* Set up proportionate scaling */
@@ -12,11 +14,12 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 #accountSignUp {
     margin-top: 33px;
-    margin-left: 31px;
+    margin-left: 5%;
     /* margin-bottom: 0px; */
     color: #262626;
     font-size: 1.25em;
@@ -32,16 +35,21 @@
     /* position: absolute; */
 }
 
+#signUpLink:hover {
+    color: #c53e29;
+}
+
 #signUpHeader {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
-    margin-left: 31px;
+    margin-left: 5%;
     color: #262626;
+    font-size: 40px;
 }
 
 #signUpBox {
     height: 375px;
-    width: 600px;
+    width: 45%;
     border: 2px solid;
     border-color: 255, 255, 255, 0.2;
     border-radius: 25px;
@@ -50,18 +58,22 @@
     margin-top: 150px;
     /* float: right; */
     background-color: #ffffff;
-    opacity: 0.80;
+    opacity: 0.6;
     font-family: 'Prompt', sans-serif;
     color: black;
 }
 
+#signUpBox:hover {
+    opacity: .9;
+}
+
 #signUpButton {
-  background-color: #262626;  
+  background-color: #c53e29;  
   border: none;
   color: white;
   padding: 10px 25px;
   margin-top: 7px;
-  margin-left: 31px;
+  margin-left: 5%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -138,3 +150,16 @@
 } */
 
 
+@media all and (max-width: 990px) { 
+    #signUpBox {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 640px) { 
+    #signUpBox {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+}

@@ -47,3 +47,32 @@ li a:hover {
     font-size: 1em;
     border: none;
 }
+
+#homeButton:hover {
+  background-color: #e3dbb7;
+}
+
+#accountButton:hover {
+    background-color: #e6c236;
+}
+
+#adminButton:hover {
+    background-color: #d78427;
+}
+
+#navSignInButton:hover {
+    background-color: #e3dbb7;
+}
+
+@media all and (max-width: 990px) { 
+    
+}
+
+@media all and (max-width: 640px) { 
+    #signOutButton {
+        float: none;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+
+}

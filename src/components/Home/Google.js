@@ -157,7 +157,6 @@ class GoogleMaps extends Component {
   render() {
 
     return (
-<<<<<<< HEAD
 
 
         <div style={{height: `100%`}}>
@@ -168,14 +167,12 @@ class GoogleMaps extends Component {
         </div>
 
 
-=======
-      <div style={{height: `100%`}}>
-        <GettingStartedGoogleMap
-          containerElement={ <div style={{ height: "100%", width: 1250, paddingBottom: 100, marginLeft: 10, paddingTop: 10 }} /> }
-          mapElement={ <div style={{ height: 500 }} /> }
-        />
-      </div>
->>>>>>> 93c53b6391d02f5d6c7d1d184d186ab11dfe8193
+      // <div style={{height: `100%`}}>
+      //   <GettingStartedGoogleMap
+      //     containerElement={ <div style={{ height: "100%", width: 1250, paddingBottom: 100, marginLeft: 10, paddingTop: 10 }} /> }
+      //     mapElement={ <div style={{ height: 500 }} /> }
+      //   />
+      // </div>
     );
   }
 }

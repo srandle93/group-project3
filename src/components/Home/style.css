@@ -1,13 +1,43 @@
-.homeBackground {
-    /* height: 347.33px; */
+.homeContainer {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
     height: 350px;
+}
+
+/* .homeBackground {
+    height: 350px;
+    min-width: 100%;
     text-align: center;
-    /* padding-top: 40px; */
     position: relative;
     background-size: 100%;
-    background-image: url(../SignIn/assets/images/black-and-white-club-crowd-788824.jpg);
     margin-bottom: 0;
-}
+    opacity: .4;
+} */
+
+.homeBackground {  
+    /* background-image: url(../SignIn/assets/images/black-and-white-club-crowd-788824.jpg); */
+    opacity: .4;
+    /* Set rules to fill background */
+    min-height: 500px;
+    /* min-width: 1024px; */
+    min-width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* Set up proportionate scaling */
+    width: 100%;
+    /* height: auto;	 */
+    /* Set up positioning */
+    /* position: fixed; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+
 
 /* Makes the map show up across width of page, but only heigh half way down the page */
 #map {
@@ -29,6 +59,7 @@
     /* font-family: 'Bungee Inline', cursive; */
     /* font-family: 'Bungee Shade', cursive; */
     /* font-family: 'Codystar', cursive; */
+    opacity: 1.0 !important;
     font-size: 70px; 
     text-shadow: 3px 3px black;
     /* padding: 30px; */
@@ -38,29 +69,10 @@
         https://d2x3rgjr0n9rv4.cloudfront.net/2017/07/29121030/best_ovp_broadcast_live_music_show_feat-354x214.jpg
     ); */
 }
-/* h1, h2 {
-    color: sienna;
-    margin-top: 0%;
-    text-shadow: 2px 2px black;
-} */
-/* .googlePlacement {
-    text-align: center;
-    height: 60%;
-    width: 50%;
-    border: 1px solid;
-    padding: 150px;
-    box-shadow: 10px 10px grey;
-    background-image: url(
-        https://previews.123rf.com/images/zhudifeng/zhudifeng1205/zhudifeng120503476/13591591-an-old-brass-compass-on-a-treasure-map-background.jpg    );
-    background-repeat: no-repeat;
-    float: left;
-    margin-right: 20px;
-    margin: 0;
-} */
 
-/* .jumbotron {
-    font-size: 70px;
-} */
+#queryBreak {
+    display:none;
+}
 
 .bannerLogo span:nth-child(1) {
     color: #e3dbb7;
@@ -83,24 +95,42 @@
 .bannerLogo span:nth-child(7) {
     color: #a4c327;
 }
-.bannerLogo span:nth-child(9) {
+.bannerLogo span:nth-child(10) {
     color: #6b7b2a;
 }
-.bannerLogo span:nth-child(10) {
+.bannerLogo span:nth-child(11) {
     color: #69c3b1;
 }
-.bannerLogo span:nth-child(11) {
+.bannerLogo span:nth-child(12) {
     color: #388172;
 }
-.bannerLogo span:nth-child(12) {
+.bannerLogo span:nth-child(13) {
     color: #e3dbb7;
 }
-.bannerLogo span:nth-child(13) {
+.bannerLogo span:nth-child(14) {
     color: #e6c236;
 }
-.bannerLogo span:nth-child(14) {
+.bannerLogo span:nth-child(15) {
     color: #d78427;
 }
-.bannerLogo span:nth-child(15) {
+.bannerLogo span:nth-child(16) {
     color: #c53e29;
+}
+
+@media all and (max-width: 990px) { 
+    #queryBreak {
+        display: block;
+    }
+}
+
+@media all and (max-width: 640px) { 
+    .bannerLogo {
+        font-size: 50px;
+    }
+ }
+
+@media all and (max-width: 320px) { 
+   /* .bannerLogo {
+       font-size: 50px;
+   } */
 }
