@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./style.css";
+import Navigation from '../Navigation';
 
 import { withFirebase } from '../Firebase';
 
@@ -37,7 +38,10 @@ class AdminPage extends Component {
   render() {
     const { users, loading } = this.state;
     return (
-      <div >
+      <div className="homeBackdrop">
+        <div id="navAccount">
+          <Navigation />
+        </div>
         <h1 id="adminHeader">Admin</h1>
 
         {loading && <div>Loading ...</div>}

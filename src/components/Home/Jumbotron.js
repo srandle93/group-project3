@@ -12,6 +12,7 @@ function Jumbotron() {
                 <span>L</span>
                 <span>I</span>
                 <span>B</span>
+                <br id="queryBreak"></br>
                 <span>  </span>
                 <span>T</span>
                 <span>O</span>

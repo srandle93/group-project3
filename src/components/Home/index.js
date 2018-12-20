@@ -40,14 +40,22 @@ import Navigation from '../Navigation';
 // }
 
 const HomePage = () => (
-  <div>
-    <div className="homeBackground">
+  <div >
+    <div className="homeContainer">
+      <img className="homeBackground"  src="../assets/images/black-and-white-club-crowd-788824.jpg" alt="blackAndWhitePhoto"></img>
       <Navigation />
       <Jumbotron />
     </div>
+    {/* <div>
+      <Navigation />
+      <Jumbotron />
+    </div> */}
     {/* <div className="googlePlacement"></div> */}
-    <GoogleMaps />
-    <Results />
+    
+    <div className="homeBackdrop">
+      <GoogleMaps />
+      <Results />
+    </div>
   </div>
 );
 

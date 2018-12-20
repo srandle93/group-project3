@@ -10,7 +10,7 @@
 } */
 
 #pwForget {
-    margin-left: 31px;
+    margin-left: 5%;
     font-size: 40px;
 }
 
@@ -18,36 +18,41 @@
     bottom: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 31px;
+    margin-left: 5%;
     color: #262626;
     font-family: 'Prompt', sans-serif;
     font-size: 1.25em;
     position: absolute;
 }
 
+#pwLink:hover {
+    color: #c53e29;
+}
+
 #forgetForm {
-  width: 80%;
-  height: 300px;
-  /* padding: 12px 20px; */
-  /* margin: 8px 0; */
-  /* display: inline-block; */
-  display: block;
-  margin: 0 auto;
-  /* margin-bottom: 7px; */
-  margin-top: 225px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  padding-left: 10px;
-  border-radius: 25px;
-  font-family: 'Prompt', sans-serif;
-  font-size: 1.5em;
+    width: 45%;
+    height: 300px;
+    border: 2px solid rgba(217, 217, 217, 0.65);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    font-family: 'Prompt', sans-serif;
+    color: #262626;
+    position: relative;
+}
+
+#forgetForm:hover {
+    opacity: 1;
 }
 
 #forgetPWemail {
     width: 90%;
     display: block;
     margin: 0 auto;
-    margin-left: 31px;
+    margin-left: 5%;
     /* margin-bottom: 7px; */
     margin-top: 10px;
     box-sizing: border-box;
@@ -56,4 +61,18 @@
     border-radius: 25px;
     font-family: 'Prompt', sans-serif;
     font-size: 1.5em;
+}
+
+@media all and (max-width: 990px) { 
+    #forgetForm {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 640px) { 
+    #forgetForm {
+        width: 90%;
+        margin-top: 40px;
+    }
+
 }

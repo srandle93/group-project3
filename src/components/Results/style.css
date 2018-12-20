@@ -2,9 +2,8 @@
     margin-top: 0px;
     box-shadow: 10px 10px grey;
 } */
-
 .eventList {
-
+    padding-bottom: 100px;
 }
 
 .eventResult {
@@ -27,4 +26,16 @@
     margin-left: 25px;
     margin-top: 15px;
     position: absolute;
+}
+
+.favBtn {
+    border-radius: 15px;
+    background-color: #c53e29;
+    /* margin-right: 5%;
+    margin-bottom: 5%;
+    bottom: 0;    
+    position: absolute;  */
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
 }
