@@ -15,7 +15,15 @@
     font-family: 'Prompt', sans-serif;
     color: #262626;
     position: relative; 
-    overflow: auto;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    white-space: nowrap;
+    /* white-space: nowrap; */
+}
+
+#adminBox ul {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #adminHeader {
@@ -24,6 +32,7 @@
 
 #userInfo {
   display: block;
+  
 }
 
 #displayID {

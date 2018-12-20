@@ -1,3 +1,8 @@
+homeBackdrop {
+    background-color: #f2f2f2;
+    opacity: .6;
+}
+
 .homeContainer {
     width: 100%;
     min-width: 100%;
@@ -63,7 +68,7 @@
     font-size: 70px; 
     text-shadow: 3px 3px black;
     /* padding: 30px; */
-    margin-top: 25px;
+    margin-top: 0px;
     /* box-shadow: 10px 10px grey; */
     /* background-image: url(
         https://d2x3rgjr0n9rv4.cloudfront.net/2017/07/29121030/best_ovp_broadcast_live_music_show_feat-354x214.jpg
@@ -126,6 +131,7 @@
 @media all and (max-width: 640px) { 
     .bannerLogo {
         font-size: 50px;
+        margin-top: 40px;
     }
  }
 

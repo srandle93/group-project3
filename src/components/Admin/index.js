@@ -38,7 +38,7 @@ class AdminPage extends Component {
   render() {
     const { users, loading } = this.state;
     return (
-      <div >
+      <div className="homeBackdrop">
         <div id="navAccount">
           <Navigation />
         </div>

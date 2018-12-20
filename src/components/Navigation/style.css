@@ -1,6 +1,6 @@
-/* .navBarBackground {
-    background-color: black;
-} */
+.navBarBackground {
+    height: 90px;
+}
 
 li {
     display: inline;
@@ -48,16 +48,32 @@ li a:hover {
     border: none;
 }
 
+#homeButton {
+    color: black;
+}
+
 #homeButton:hover {
   background-color: #e3dbb7;
+}
+
+#accountButton {
+    color: black;
 }
 
 #accountButton:hover {
     background-color: #e6c236;
 }
 
+#adminButton {
+    color: black;
+}
+
 #adminButton:hover {
     background-color: #d78427;
+}
+
+#navSignInButton {
+    color: black;
 }
 
 #navSignInButton:hover {

@@ -22,8 +22,6 @@
     margin-top: 6%;
 }
 
-
-
 #signInHeader {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -101,7 +99,9 @@
     border-radius: 25px;
     font-family: 'Prompt', sans-serif;
     font-size: 1.5em;
+    
 }
+
 
 /* #passwordForget {
     margin-left: 15px;
