@@ -65,7 +65,7 @@ This application was created to fulfill a group project requirement while attend
 * Maren Jung
     * [link]
 * Thomas Winters
-    *[link] https://github.com/thomwint
+    * [link] https://github.com/thomwint
 * James Breckenitch
     * [link] 
 * Brittany Nylander
