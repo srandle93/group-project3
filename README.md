@@ -1,3 +1,19 @@
+
+About Aud-Lib
+=============
+
+## What is Aud-Lib?
+
+Aud-Lib is an application that provides the end-user with same-day details about music shows happening in their area. End-Users can create an account on the application to save favorite venues.
+
+## Why was it created?
+
+Aud-Lib was created to fill a need in the local Twin Cities market. There are a ton of live shows every night, but not everyone knows where. Without this application, users may have to visit multiple venue websites, event pages, etc..., which can be time consuming and overwhelming. This application helps the end-user more quickly answer the question: "Where should we go tonight next?" when they are out for dinner and decide to stay out later. This helps take away the pressure of planning ahead. 
+
+
+Development Information
+=======================
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -44,19 +60,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 
-
-About Aud-Lib
-=============
-
-## What is Aud-Lib?
-
-Aud-Lib is an application that provides the end-user with same-day details about music shows happening in their area. End-Users can create an account on the application to save favorite venues.
-
-## Why was it created?
-
-Aud-Lib was created to fill a need in the local Twin Cities market. There are a ton of live shows every night, but not everyone knows where. Without this application, users may have to visit multiple venue websites, event pages, etc..., which can be time consuming and overwhelming. This application helps the end-user more quickly answer the question: "Where should we go tonight next?" when they are out for dinner and decide to stay out later. This helps take away the pressure of planning ahead. 
-
-## Contributors
+Contributors
+============
 
 This application was created to fulfill a group project requirement while attending the University of Minnesota's Coding Bootcamp. Contributors' names and links to their personal GitHub pages have been listed below. Any of the contributors can be contacted with questions and feedback!
 
