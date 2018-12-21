@@ -56,9 +56,9 @@ Aud-Lib is an application that provides the end-user with same-day details about
 
 Aud-Lib was created to fill a need in the local Twin Cities market. There are a ton of live shows every night, but not everyone knows where. Without this application, users may have to visit multiple venue websites, event pages, etc..., which can be time consuming and overwhelming. This application helps the end-user more quickly answer the question: "Where should we go tonight next?" when they are out for dinner and decide to stay out later. This helps take away the pressure of planning ahead. 
 
-## Contributers
+## Contributors
 
-This application was created to fulfill a group project requirement while attending the University of Minnesota's Coding Bootcamp. Contributers' names and links to their personal GitHub pages have been listed below. Any of the contributers can be contacted with questions and feedback!
+This application was created to fulfill a group project requirement while attending the University of Minnesota's Coding Bootcamp. Contributors' names and links to their personal GitHub pages have been listed below. Any of the contributors can be contacted with questions and feedback!
 
 * Symone Randle
     * [link] https://github.com/srandle93
