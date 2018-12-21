@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import { compose } from 'recompose';
 // import Navigation from '../Navigation';
-
-import  Jumbotron from '../Home/Jumbotron';
+import Jumbotron from '../Home/Jumbotron';
 import { SignUpLink } from '../SignUp';
 import { PasswordForgetLink } from '../PasswordForget';
 import { withFirebase } from '../Firebase';

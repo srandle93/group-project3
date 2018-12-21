@@ -1,0 +1,19 @@
+.homeBackground {  
+    /* background-image: url(../SignIn/assets/images/black-and-white-club-crowd-788824.jpg); */
+    opacity: .4;
+    /* Set rules to fill background */
+    min-height: 500px;
+    /* min-width: 1024px; */
+    min-width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* Set up proportionate scaling */
+    width: 100%;
+    /* height: auto;	 */
+    /* Set up positioning */
+    /* position: fixed; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }

@@ -76,6 +76,14 @@ li a:hover {
     color: black;
 }
 
+#faveButton {
+    color:black;
+}
+
+#faveButton:hover {
+    background-color:  #c53e29;
+}
+
 #navSignInButton:hover {
     background-color: #e3dbb7;
 }
