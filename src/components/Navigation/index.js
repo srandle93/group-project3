@@ -8,7 +8,7 @@ import { AuthUserContext } from '../Session';
 import "./style.css";
 
 const Navigation = () => (
-  <div>
+  <div className="navBarBackground">
     <AuthUserContext.Consumer>
       {authUser =>
         authUser ? <NavigationAuth /> : <NavigationNonAuth />
@@ -22,16 +22,16 @@ const NavigationAuth = () => (
     {/* <li>
       <Link to={ROUTES.LANDING}>Landing</Link>
     </li> */}
-    <li>
-      <Link to={ROUTES.HOME}>Home</Link>
+    <li >
+      <Link id="homeButton" to={ROUTES.HOME}>Home</Link>
     </li>
-    <li>
-      <Link to={ROUTES.ACCOUNT}>Account</Link>
+    <li >
+      <Link id="accountButton" to={ROUTES.ACCOUNT}>Account</Link>
     </li>
-    <li>
-      <Link to={ROUTES.ADMIN}>Admin</Link>
+    <li >
+      <Link id="adminButton" to={ROUTES.ADMIN}>Admin</Link>
     </li>
-    <li>
+    <li id="navSignOutButton">
       <SignOutButton />
     </li>
   </ul>
@@ -39,11 +39,11 @@ const NavigationAuth = () => (
 
 const NavigationNonAuth = () => (
   <ul>
-    <li>
+    {/* <li>
       <Link to={ROUTES.LANDING}>Landing</Link>
-    </li>
+    </li> */}
     <li>
-      <Link to={ROUTES.SIGN_IN}>Sign In</Link>
+      <Link id="navSignInButton" to={ROUTES.SIGN_IN}>Sign In</Link>
     </li>
   </ul>
 );

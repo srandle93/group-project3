@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navigation from '../Navigation';
+// import Navigation from '../Navigation';
 // import LandingPage from '../Landing';
 import SignUpPage from '../SignUp';
 import SignInPage from '../SignIn';
@@ -13,8 +13,7 @@ import { withAuthentication } from '../Session';
 
 const App = () => (
   <Router>
-    <div>
-      <Navigation />
+    <div >
 
       <Switch>
       <Route exact path="/home" component={HomePage} />

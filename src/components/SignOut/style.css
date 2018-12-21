@@ -6,7 +6,7 @@
     border-radius: 25px; */
   background-color: #ffffff; /* Green */
   border: none;
-  color: #262626;
+  color: black;
   margin-top: 10px;
   margin-right: 15px;
   text-align: center;
@@ -17,4 +17,34 @@
   font-size: 1em;
   opacity: .80;
   padding: 10px 25px;
+}
+
+#signOutButton:hover {
+   background-color: #c53e29;
+}
+
+@media all and (max-width: 640px) { 
+  #signOutButton {
+    /* float: left;  */
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+
+  #navbarBackground ul li a {
+    margin-bottom: 0px;
+  }
+  #homeButton {
+    padding-bottom: 0px;
+
+  }
+  #accountButton {
+    padding-bottom: 0px;
+
+  }
+  #adminButton {
+    padding-bottom: 0px;
+  }
 }

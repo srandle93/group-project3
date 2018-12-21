@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./style.css";
 
 import { withFirebase } from '../Firebase';
 
@@ -43,6 +44,7 @@ class PasswordChangeForm extends Component {
     return (
       <form onSubmit={this.onSubmit}>
         <input
+          id="newPasswordEntry"
           name="passwordOne"
           value={passwordOne}
           onChange={this.onChange}
@@ -50,13 +52,14 @@ class PasswordChangeForm extends Component {
           placeholder="New Password"
         />
         <input
+          id="confirmPasswordEntry"
           name="passwordTwo"
           value={passwordTwo}
           onChange={this.onChange}
           type="password"
           placeholder="Confirm New Password"
         />
-        <button disabled={isInvalid} type="submit">
+        <button disabled={isInvalid} type="submit" className="resetPasswordButton">
           Reset My Password
         </button>
 

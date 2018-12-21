@@ -1,4 +1,41 @@
-.collection {
+/* .collection {
     margin-top: 0px;
     box-shadow: 10px 10px grey;
+} */
+.eventList {
+    padding-bottom: 100px;
+}
+
+.eventResult {
+    height: 200px;
+    width: 80%;
+    border: 2px solid rgba(217, 217, 217, 0.65);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    opacity: 0.80;
+    font-family: 'Prompt', sans-serif;
+    color: #262626;
+    position: relative;
+}
+
+.eventLink {
+    margin-left: 25px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.favBtn {
+    border-radius: 15px;
+    background-color: #c53e29;
+    /* margin-right: 5%;
+    margin-bottom: 5%;
+    bottom: 0;    
+    position: absolute;  */
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
 }

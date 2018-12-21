@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import "./style.css";
+import Jumbotron from '../Home/Jumbotron';
+
+import Navigation from '../Navigation';
+
+
 
 
 import { withFirebase } from '../Firebase';
@@ -8,8 +13,13 @@ import * as ROUTES from '../../constants/routes';
 
 const PasswordForgetPage = () => (
   <div>
-    <h1 id="pwForget">PasswordForget</h1>
-    <PasswordForgetForm />
+    <img className="signInBackground"  src="../assets/images/black-and-white-club-crowd-788824.jpg" alt="blackAndWhitePhoto"></img>
+    <Navigation />
+    <Jumbotron />
+    <div id="forgetForm">
+      <h1 id="pwForget">Password Forget</h1>
+      <PasswordForgetForm />
+    </div>
   </div>
 );
 
@@ -52,13 +62,14 @@ class PasswordForgetFormBase extends Component {
     return (
       <form onSubmit={this.onSubmit}>
         <input
+          id="forgetPWemail"
           name="email"
           value={this.state.email}
           onChange={this.onChange}
           type="text"
           placeholder="Email Address"
         />
-        <button disabled={isInvalid} type="submit">
+        <button disabled={isInvalid} type="submit" className="resetPasswordButton">
           Reset My Password
         </button>
 

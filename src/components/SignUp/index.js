@@ -5,14 +5,23 @@ import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
 import "./style.css";
 import  Jumbotron from '../Home/Jumbotron';
+import Navigation from '../Navigation';
+
 
 
 const SignUpPage = () => (
   <div>
-    <Jumbotron />
-    <div id="signUpBox">
-    <h1 id="signUpHeader">SignUp</h1>
-    <SignUpForm />
+    <img className="signInBackground"  src="../assets/images/black-and-white-club-crowd-788824.jpg" alt="blackAndWhitePhoto"></img>
+
+    <div >
+      <div>
+      <Navigation />
+      <Jumbotron />
+      </div>
+      <div id="signUpBox">
+      <h1 id="signUpHeader">Sign Up</h1>
+      <SignUpForm />
+      </div>
     </div>
   </div>
 );
@@ -123,8 +132,7 @@ class SignUpFormBase  extends Component {
 const SignUpLink = () => (
   <p id="accountSignUp">
     Don't have an account? 
-    <br />
-    <Link id="signUpLink" to={ROUTES.SIGN_UP}>Sign Up</Link>
+    <Link id="signUpLink" to={ROUTES.SIGN_UP}> Sign Up</Link>
   </p>
 );
 

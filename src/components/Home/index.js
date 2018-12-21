@@ -4,6 +4,8 @@ import Jumbotron from "./Jumbotron";
 import "./style.css";
 import Results from '../Results/Results';
 import GoogleMaps from './Google';
+import Navigation from '../Navigation';
+
 
 // function Home() {
 //     return (
@@ -38,12 +40,22 @@ import GoogleMaps from './Google';
 // }
 
 const HomePage = () => (
-  <div>
-    <Jumbotron />
-    <br></br>
-    <div className="googlePlacement"></div>
-    <Results />
-    <GoogleMaps />
+  <div >
+    <div className="homeContainer">
+      <img className="homeBackground"  src="../assets/images/black-and-white-club-crowd-788824.jpg" alt="blackAndWhitePhoto"></img>
+      <Navigation />
+      <Jumbotron />
+    </div>
+    {/* <div>
+      <Navigation />
+      <Jumbotron />
+    </div> */}
+    {/* <div className="googlePlacement"></div> */}
+    
+    <div className="homeBackdrop">
+      <GoogleMaps />
+      <Results />
+    </div>
   </div>
 );
 
