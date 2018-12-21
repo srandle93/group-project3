@@ -68,13 +68,13 @@ This application was created to fulfill a group project requirement while attend
 * Symone Randle
     * [link] https://github.com/srandle93
 * Maren Jung
-    * [link]
+    * [link] https://github.com/MarenJung
 * Thomas Winters
     * [link] https://github.com/thomwint
 * James Breckenitch
-    * [link] 
+    * [link] https://github.com/jrbreckenitch
 * Brittany Nylander
-    * [link]
+    * [link] https://github.com/banyland
 * Alex Henderson
     * [link] https://github.com/anh0238
 
