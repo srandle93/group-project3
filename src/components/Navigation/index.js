@@ -25,14 +25,16 @@ const NavigationAuth = () => (
     <li >
       <Link id="homeButton" to={ROUTES.HOME}>Home</Link>
     </li>
-    <li >
+    <li>
       <Link id="accountButton" to={ROUTES.ACCOUNT}>Account</Link>
     </li>
     <li >
       <Link id="adminButton" to={ROUTES.ADMIN}>Admin</Link>
     </li>
-    <li id="navSignOutButton">
-      <SignOutButton />
+    <li>
+      <Link id='faveButton' to={ROUTES.FAVORITES}>Favorites</Link>
+      </li>
+      <li id="navSignOutButton"><SignOutButton />
     </li>
   </ul>
 );
