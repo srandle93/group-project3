@@ -7,7 +7,8 @@
 }
 
 .eventResult {
-    height: 200px;
+    /* height: 250px; */
+    height: auto;
     width: 80%;
     border: 2px solid rgba(217, 217, 217, 0.65);
     border-radius: 25px;
@@ -22,20 +23,34 @@
     position: relative;
 }
 
+.eventInfo {
+  display: block;
+  /* margin: 0 auto; */
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 7px;
+  box-sizing: border-box;
+  /* padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px; */
+  /* font-family: 'Prompt', sans-serif; */
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+
 .eventLink {
-    margin-left: 25px;
-    margin-top: 15px;
-    position: absolute;
+    /* margin-left: 25px;
+    margin-top: 15px; */
+    /* position: absolute; */
+    font-size: 1.5em;
+    color: #c53e29;
 }
 
 .favBtn {
     border-radius: 15px;
-    background-color: #c53e29;
-    /* margin-right: 5%;
-    margin-bottom: 5%;
-    bottom: 0;    
-    position: absolute;  */
-    margin-top: 10px;
+    background-color: #e3dbb7;
+    /* margin-top: 10px; */
     margin-right: 10px;
+    margin-left: 5px;
     float: right;
 }
