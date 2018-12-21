@@ -7,12 +7,17 @@ function Results() {
     return(
         <div className="eventList">
             <div className="eventResult">
+                <div className="eventInfo">
+                    <FavBtn/>
                 <a href="https://www.cabooze.com/event/1780739-christmas-cabooze-last-minneapolis/" className="eventLink">Christmas At  The Cabooze! with: Last Import, If Eye May, Johnny Yuma, and The Aftergreens</a>
                 <h6>Date: Sat, Dec 22, 2018</h6>
                 <h6>Time: 4:00pm</h6>
                 <h6>Cover: $5 </h6>
                 <h6>Listen: <a href="https://lastimport.bandcamp.com/">https://lastimport.bandcamp.com/</a></h6>
-                <FavBtn/>
+                    
+                </div>
+      </div>
+              
             </div> 
             <div className="eventResult">
                 <a href="https://www.dakotacooks.com/event/bodeans/" className="eventLink">BoDeans at Dakota Jazz Club</a>
