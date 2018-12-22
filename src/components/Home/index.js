@@ -46,7 +46,10 @@ const HomePage = () => (
       <img className="homeBackground"  src="../assets/images/black-and-white-club-crowd-788824.jpg" alt="blackAndWhitePhoto"></img>
       <Navigation />
       <Jumbotron />
+ 
+   
     </div>
+    
     {/* <div>
       <Navigation />
       <Jumbotron />
